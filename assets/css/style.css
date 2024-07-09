@@ -89,6 +89,14 @@ h6,
   height: 60px;
 }
 
+#header.header-scrolled a {
+  color: #000;
+}
+
+#header.header-scrolled a:hover {
+  color: #333;
+}
+
 #header .logo h1 {
   font-size: 28px;
   margin: 0;
@@ -364,8 +372,8 @@ h6,
   top: 0;
   width: 130%;
   height: 96%;
-  background: #68A4C4;
-  opacity: 0.3;
+  background: #E8CB63;
+  /* opacity: 0.3; */
   z-index: 0;
   border-radius: 0 0 50% 50%;
   transform: translateX(-50%) translateY(18px) rotate(2deg);
@@ -422,17 +430,19 @@ h6,
   transition: 0.5s;
   line-height: 1;
   margin: 10px;
-  color: #fff;
+  color: #DFBF16;
   animation-delay: 0.8s;
-  border: 2px solid #E8CB63;
+  border: 2px solid #DFBF16;
   
 }
 
+
 #hero .btn-get-started:hover {
-  background: #68A4C4;
-  color: #fff;
+  background: #E8CB63;
+  color: #000;
   text-decoration: none;
 }
+
 
 @media (min-width: 1024px) {
   #hero p {
@@ -552,9 +562,9 @@ h6,
 section {
   padding: 60px 0;
 }
-
+/* Fondo debajo del recuardro del video */
 .section-bg {
-  background-color: #f3f8fa;
+  background-color: #E8CB63;
 }
 
 .section-title {
@@ -766,12 +776,12 @@ section {
 }
 
 .why-us .icon-box .icon i {
-  color: #68A4C4;
+  color: #DFBF16;
   font-size: 32px;
 }
 
 .why-us .icon-box:hover .icon {
-  background: #68A4C4;
+  background: #DFBF16;
 }
 
 .why-us .icon-box:hover .icon i {
@@ -813,7 +823,7 @@ section {
 .why-us .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#68A4C4 50%, rgba(104, 164, 196, 0.4) 52%);
+  background: radial-gradient(#DFBF16 50%, rgba(232, 203, 99, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -849,14 +859,14 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(104, 164, 196, 0.7);
+  border: 5px solid rgba(187, 196, 104, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 
 .why-us .play-btn:hover::after {
-  border-left: 15px solid #68A4C4;
+  border-left: 15px solid #DFBF16;
   transform: scale(20);
 }
 
@@ -2170,7 +2180,7 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #0b212d;
+  background: #3792A5;
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
@@ -2178,7 +2188,7 @@ section {
 
 #footer .footer-newsletter {
   padding: 50px 0;
-  background: #0d2735;
+  background: #3792A5;
 }
 
 #footer .footer-newsletter h4 {
@@ -2225,9 +2235,9 @@ section {
 }
 
 #footer .footer-top {
-  background: #0d2735;
-  border-top: 1px solid #17455e;
-  border-bottom: 1px solid #123649;
+  background: #3792A5;
+  border-top: 1px solid #3792A5;
+  border-bottom: 1px solid #3792A5;
   padding: 60px 0 30px 0;
 }
 
